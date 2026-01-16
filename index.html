@@ -164,14 +164,14 @@
 
           if (!isAuthenticated) {
             return (
-              <div className="min-h-screen bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 flex items-center justify-center p-4">
+              <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
                 <div className="bg-white rounded-2xl shadow-2xl p-6 md:p-8 w-full max-w-md">
                   <div className="text-center mb-6 md:mb-8">
                     <div className="inline-flex items-center justify-center w-14 h-14 md:w-16 md:h-16 bg-indigo-100 rounded-full mb-4">
                       <Icon name="Activity" className="w-7 h-7 md:w-8 md:h-8 text-indigo-600" />
                     </div>
                     <h1 className="text-2xl md:text-3xl font-bold text-gray-800">MedConnect</h1>
-                    <p className="text-sm md:text-base text-gray-600 mt-2">Tu salud, conectada</p>
+                    <p className="text-sm md:text-base text-gray-600 mt-2">Plataforma de Salud Digital</p>
                   </div>
                   <form onSubmit={handleLogin} className="space-y-4">
                     <input type="email" placeholder="Email" value={loginEmail} onChange={(e) => setLoginEmail(e.target.value)} className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-base" required />
